@@ -47,6 +47,24 @@ interface gigabitEthernet 0/1
 ip address 192.168.2.1 255.255.255.0
 no shutdown
 exit
+## 🔌 Testando a rede com a "Cartinha" (Ping)
+
+Depois de colocar os dois computadores na mesma rede, usei a ferramenta de simulação do Packet Tracer (o ícone da cartinha) para testar se eles conseguem conversar entre si.
+
+### Como funciona o caminho:
+1. **O começo:** A cartinha sai do primeiro computador (**PC0**).
+2. **O meio do caminho:** Ela passa pelo **Switch**, que entende para onde ela deve ir.
+3. **A entrega:** O Switch entrega a cartinha direto no segundo computador (**PC1**).
+
+### Veja como ficou no mapa:
+
+![Enviando para o Switch](<img width="1366" height="768" alt="interacao_swish" src="https://github.com/user-attachments/assets/af5e08a8-c14b-427c-a6ce-7e3a7c959d93" />
+)
+
+![Chegando no destino](<img width="1366" height="768" alt="mensagem_entregue-pc01" src="https://github.com/user-attachments/assets/4c844264-2917-4718-8dea-8fa2a7284aea" />
+)
+
+> 👍 **Sucesso!** No final do teste, o Packet Tracer mostra o status como **Successful**, o que significa que os computadores estão conversando perfeitamente.
 
 ## Conclusão
 Este laboratório demonstra a importância da correta configuracão de redes LAN e do roteamento entre
