@@ -66,15 +66,14 @@ Depois de colocar os dois computadores na mesma rede, usei a ferramenta de simul
 
 > 👍 **Sucesso!** No final do teste, o Packet Tracer mostra o status como **Successful**, o que significa que os computadores estão conversando perfeitamente.
 
-## Conclusão
-Este laboratório demonstra a importância da correta configuracão de redes LAN e do roteamento entre
-sub-redes distintas.
-O projeto une conceitos de suporte técnico como endereçamento IP e roteamento, mostrando como
-esses elementos trabalham juntos em um ambiente real.
+## 🏁 Conclusão
 
-## Autoria
-### Desenvolvido por
-Carla Sayonara Freitas
-### Formacao
-Estudante de Suporte de Redes e Defesa de Redes
-(OBS: esse projeto ainda nao foi finalizado, é apenas um registro do que foi aprendido) 
+Este laboratório foi excelente para praticar e demonstrar a montagem de uma topologia de rede do zero no Packet Tracer. 
+
+Comecei criando a estrutura física básica e, logo em seguida, usei o teste das "cartinhas" para validar a comunicação em tempo real. O projeto mostra, na prática, como o endereçamento IP e a configuração correta do roteador fazem toda a diferença para que redes diferentes consigam se conversar.
+
+---
+🧑‍💻 **Autor:** Carla Sayonara Freitas
+### Formação:
+Estudante de Suporte de Redes e Defesa de Redes cursos desenvolvidos pela Cisco Networking Academy
+(OBS: esse projeto ainda não foi finalizado, é apenas um registro do que foi aprendido) 
