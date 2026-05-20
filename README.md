@@ -1,87 +1,62 @@
-# Laboratório: Configuração de Redes LAN
+# Laboratorio: Configuração de Redes LAN
+Este repositório contem o meu projeto prático de redes. Ele foi desenvolvido como parte da minha
+formacão em Suporte de Redes e Defesa de Redes para demonstrar conhecimentos praticos de
+infraestrutura e organização.
+O objetivo foi conectar duas redes de computadores separadas usando um roteador para simular um
+ambiente real.
 
-Este contém o meu projeto prático de redes. Ele foi como parte da minha mão em Suporte de Redes e Defesa de Redes parapersonagens de demonstração de competências práticas de organização de e.
+## Como a Rede foi Montada (Topologia)
+Dividi o laboratório em duas redes locais (LANs) diferentes ligadas por um roteador para permitir o
+controle e a organização da comunicação:
+- Rede A: Composta por 2 computadores (PCs) ligados em um Switch. O Switch conecta na interface
+do roteador.
+- Rede B: Composta por 1 PC e 1 Laptop ligados em outro Switch. Esse Switch tambem conecta na
+outra interface do roteador.
 
-O objetivo foi tomicor duas redes de computadores de computadores um para roteador simular um ambiente real.
+## Prints do laboratóriono Packet tracer
+()<img width="1366" height="768" alt="imagem1" src="https://github.com/user-attachments/assets/a97d9b39-35c3-4643-a9af-68802e0395d1" />
 
-----
 
-## 🏗️Como a Rede foi Montada (Topologia)
+## Cabos e Camada Física
+A rede foi montada utilizando cabos (rede cabeada), o que garante mais estabilidade e melhor
+desempenho.
+Foi utilizado o Cabo Direto (Straight-Through) para conectar dispositivos de diferentes camadas (PC ->
+Switch e Switch -> Roteador).
+Com a montagem correta, todas as conexoes ficaram ativas (luzes verdes no Packet Tracer).
 
-Dividi o laboratório em duas redes locais (LANs) diferentes de um roteador para permitir o controle e a organização comunicação da comunicação:
+## Endereçamento IP
+Para organizar os dispositivos, foram utilizadas faixas de IP privadas Classe C:
+- Rede A: 192.168.1.X | Mascara: 255.255.255.0
+- Rede B: 192.168.2.X | Mascara: 255.255.255.0
+A mascara 255.255.255.0 define o tamanho da sub-rede e a quantidade de dispositivos suportados.
 
-- **Rede A:** Composta por 2 computadores (PCs) nisions em um Switch. O Switch connecta na interface do roteador.
-- **Rede B:** Composta por 1 PC e 1 Laptop nisioso em outro Switch. Esse Switch uso coneine na outra interface do roteador do.
+## Diagnóstico de Falhas (Troubleshooting)
+Inicialmente, os dispositivos da mesma rede se comunicavam corretamente, mas nao havia comunicacao
+entre as redes.
+O problema foi identificado como falta de configuracao de gateway no roteador.
 
-----
+## Configuração do Roteador
 
-## 🔌Cabos e Camada Física
-
-A rede foi montada cabos (rede cabeada), o que mais estabilidade e desempenho de desempenho.
-
-Foi utilizado o **Cabo Direto (Straight-Through)** para dispositivos para dispositivos de camadas diferentes (PC → Switch e Switch → Roteador).
-
-Com um ponto alto, demount, todas como conexões como fica umas vivas (luzes verdes no Packet Tracer).
-
-----
-
-## Prints do Projeto Visual
-
-*(Clique nas abass para ver como abaixo do projeto imagens)*
-
-----
-
-## 📐Endereçamento IP
-
-Para organ os dispositivos, foram faixas de faixas de privadas IP Classe C:
-
-- **Verificar A:** 192.168.1. X | Máscara: 255.255.255.0
-- **Vermelho B:** 192.168.2. X | Máscara: 255.255.255.0
-
-A máscara 255.255.255.0 define o da quantidade sub-rede e a quantidade de dispositivos suportados.
-
-----
-
-## 🛠️Diagnóstico de Falhas (Solução de Problemas)
-
-Os dispositivos da rede se comunicavam, mas não mas não entre como redes de comunicação.
-
-O problema foi como identificado falta de configuração de gateway no roteador.
-
-----
-
-## 🛠️Configuração do Roteador
-
-### 🌐networking A
-
+### Rede A
 interface gigabitEthernet 0/0
-ip adsress 192.168.1.1 255.255.255.0
+ip address 192.168.1.1 255.255.255.0
 no shutdown
-saída
-
-### 🌐 Networking B
-
+exit
+### Rede B
 interface gigabitEthernet 0/1
 ip address 192.168.2.1 255.255.255.0
-No shutdown
+no shutdown
 exit
 
-----
+## Conclusão
+Este laboratório demonstra a importância da correta configuracão de redes LAN e do roteamento entre
+sub-redes distintas.
+O projeto une conceitos de suporte técnico como endereçamento IP e roteamento, mostrando como
+esses elementos trabalham juntos em um ambiente real.
 
-## 🚀 Conclusão
-
-Este laboratório demonstra a importância da correta de redes de redes LAN e do roteamento entre sub-redes
-
-O projeto une conceitos de suporte comozedere técnico IP e roteamento, mostrando como como juntos elements em um trabalho ambiente real.
-
-----
-
-## 👩 💻 Autoria
-
-### 📝 Desenvolvido por
-
+## Autoria
+### Desenvolvido por
 Carla Sayonara Freitas
-
-### 🎓 Formação
-
+### Formacao
 Estudante de Suporte de Redes e Defesa de Redes
+
