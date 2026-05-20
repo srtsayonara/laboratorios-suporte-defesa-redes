@@ -76,6 +76,7 @@ Comecei criando a estrutura física básica e, logo em seguida, usei o teste das
 
 ---
 🧑‍💻 **Autor:** Carla Sayonara Freitas
-### Formação:
+### Formação/Fonte de estudos:
 Estudante de Suporte de Redes e Defesa de Redes cursos desenvolvidos pela Cisco Networking Academy
+
 (OBS: esse projeto ainda não foi finalizado, é apenas um registro do que foi aprendido) 
