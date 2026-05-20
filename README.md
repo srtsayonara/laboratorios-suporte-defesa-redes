@@ -31,9 +31,9 @@ Para organizar os dispositivos, foram utilizadas faixas de IP privadas Classe C:
 A mascara 255.255.255.0 define o tamanho da sub-rede e a quantidade de dispositivos suportados.
 
 ## Diagnóstico de Falhas (Troubleshooting)
-Inicialmente, os dispositivos da mesma rede se comunicavam corretamente, mas nao havia comunicacao
+Inicialmente, os dispositivos da mesma rede se comunicavam corretamente, mas não havia comunicação
 entre as redes.
-O problema foi identificado como falta de configuracao de gateway no roteador.
+O problema foi identificado como falta de configuração de gateway no roteador.
 
 ## Configuração do Roteador
 
@@ -59,4 +59,4 @@ esses elementos trabalham juntos em um ambiente real.
 Carla Sayonara Freitas
 ### Formacao
 Estudante de Suporte de Redes e Defesa de Redes
-
+(OBS: esse projeto ainda nao foi finalizado, é apenas um registro do que foi aprendido) 
