@@ -58,10 +58,12 @@ Depois de colocar os dois computadores na mesma rede, usei a ferramenta de simul
 
 ### Veja como ficou no mapa:
 
-![Enviando para o Switch](<img width="1366" height="768" alt="interacao_swish" src="https://github.com/user-attachments/assets/af5e08a8-c14b-427c-a6ce-7e3a7c959d93" />
+![Enviando para o Switch]
+(<img width="1366" height="768" alt="interacao_swish" src="https://github.com/user-attachments/assets/af5e08a8-c14b-427c-a6ce-7e3a7c959d93" />
 )
 
-![Chegando no destino](<img width="1366" height="768" alt="mensagem_entregue-pc01" src="https://github.com/user-attachments/assets/4c844264-2917-4718-8dea-8fa2a7284aea" />
+![Chegando no destino]
+(<img width="1366" height="768" alt="mensagem_entregue-pc01" src="https://github.com/user-attachments/assets/4c844264-2917-4718-8dea-8fa2a7284aea" />
 )
 
 > 👍 **Sucesso!** No final do teste, o Packet Tracer mostra o status como **Successful**, o que significa que os computadores estão conversando perfeitamente.
