@@ -25,10 +25,14 @@ Switch e Switch -> Roteador).
 Com a montagem correta, todas as conexoes ficaram ativas (luzes verdes no Packet Tracer).
 
 ## Endereçamento IP
-Para organizar os dispositivos, foram utilizadas faixas de IP privadas Classe C:
+```bash
+!Para organizar os dispositivos, foram utilizadas faixas de IP privadas Classe C:
 - Rede A: 192.168.1.X | Mascara: 255.255.255.0
 - Rede B: 192.168.2.X | Mascara: 255.255.255.0
-A mascara 255.255.255.0 define o tamanho da sub-rede e a quantidade de dispositivos suportados.
+
+!A mascara 255.255.255.0 define o tamanho da sub-rede e a quantidade de dispositivos suportados.
+```
+
 
 ## Diagnóstico de Falhas (Troubleshooting)
 Inicialmente, os dispositivos da mesma rede se comunicavam corretamente, mas não havia comunicação
@@ -36,17 +40,27 @@ entre as redes.
 O problema foi identificado como falta de configuração de gateway no roteador.
 
 ## Configuração do Roteador
+### Antes da configuração:totalmente sem conecção
+<img width="1362" height="734" alt="sem configurar" src="https://github.com/user-attachments/assets/04257f74-0baf-495e-8936-38b971dd1d99" />
 
 ### Rede A
+<img width="690" height="192" alt="configurando_roteador" src="https://github.com/user-attachments/assets/6906dbfe-eac4-4cbd-bc2f-a69d39c8ca69" />
+
+```bash
 interface gigabitEthernet 0/0
+
 ip address 192.168.1.1 255.255.255.0
+
 no shutdown
+
 exit
-### Rede B
-interface gigabitEthernet 0/1
-ip address 192.168.2.1 255.255.255.0
-no shutdown
-exit
+```
+
+
+![sucesso]
+(<img width="1366" height="768" alt="configurado" src="https://github.com/user-attachments/assets/9cfe1aae-3d03-471a-9e35-a2af1b12a572" />
+)
+
 ## 🔌 Testando a rede com a "Cartinha" (Ping)
 
 Depois de colocar os dois computadores na mesma rede, usei a ferramenta de simulação do Packet Tracer (o ícone da cartinha) para testar se eles conseguem conversar entre si.
