@@ -121,3 +121,6 @@ Comecei criando a estrutura física básica e, logo em seguida, usei o teste das
 Estudante de Suporte de Redes e Defesa de Redes cursos desenvolvidos pela Cisco Networking Academy
 
 (OBS: esse projeto ainda não foi finalizado, é apenas um registro do que foi aprendido) 
+> ⚠️ Os prints foram capturados em momentos diferentes do laboratório, 
+> por isso alguns dispositivos podem aparecer com nomes distintos.
+
