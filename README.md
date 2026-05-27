@@ -1,9 +1,29 @@
-# Laboratorio: Configuração de Redes LAN
-Este repositório contem o meu projeto prático de redes. Ele foi desenvolvido como parte da minha
-formacão em Suporte de Redes e Defesa de Redes para demonstrar conhecimentos praticos de
-infraestrutura e organização.
-O objetivo foi conectar duas redes de computadores separadas usando um roteador para simular um
-ambiente real.
+# 🌐 Laboratório de Configuração de Redes LAN
+
+![Status](https://img.shields.io/badge/Status-Em%20Andamento-yellow)
+
+Este repositório contém o meu projeto prático de redes. Ele foi desenvolvido 
+como parte da minha formação em Suporte de Redes e Defesa de Redes para 
+demonstrar conhecimentos práticos de infraestrutura e organização. O objetivo 
+foi conectar duas redes de computadores separadas usando um roteador para 
+simular um ambiente real.
+
+---
+
+## 🛠️ Ferramentas Utilizadas
+- Cisco Packet Tracer
+- Protocolo TCP/IP
+- Equipamentos: Roteador, Switch, PCs, Laptop
+
+---
+
+## 📚 Conhecimentos Aplicados
+- Diferença entre LAN e roteamento entre redes
+- Configuração de interfaces no roteador Cisco (CLI)
+- Endereçamento IP e máscara de sub-rede
+- Troubleshooting de conectividade com ping
+
+---
 
 ## Como a Rede foi Montada (Topologia)
 Dividi o laboratório em duas redes locais (LANs) diferentes ligadas por um roteador para permitir o
