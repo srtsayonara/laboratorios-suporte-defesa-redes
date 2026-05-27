@@ -42,7 +42,7 @@ A rede foi montada utilizando cabos (rede cabeada), o que garante mais estabilid
 desempenho.
 Foi utilizado o Cabo Direto (Straight-Through) para conectar dispositivos de diferentes camadas (PC ->
 Switch e Switch -> Roteador).
-Com a montagem correta, todas as conexoes ficaram ativas (luzes verdes no Packet Tracer).
+Com a montagem correta, todas as conexões ficaram ativas (luzes verdes no Packet Tracer).
 
 ## Endereçamento IP
 ```bash
@@ -67,7 +67,7 @@ entre as redes.
 O problema foi identificado como falta de configuração de gateway no roteador.
 
 ## Configuração do Roteador
-### Antes da configuração:totalmente sem conecção
+### Antes da configuração:totalmente sem conexão
 <img width="1362" height="734" alt="sem configurar" src="https://github.com/user-attachments/assets/04257f74-0baf-495e-8936-38b971dd1d99" />
 
 ### Rede A
@@ -84,7 +84,7 @@ exit
 ```
 
 
-[sucesso]
+**sucesso**
 <img width="1366" height="768" alt="configurado" src="https://github.com/user-attachments/assets/9cfe1aae-3d03-471a-9e35-a2af1b12a572" />
 
 
@@ -99,13 +99,13 @@ Depois de colocar os dois computadores na mesma rede, usei a ferramenta de simul
 
 ### Veja como ficou no mapa:
 
-![Enviando para o Switch]
-(<img width="1366" height="768" alt="interacao_swish" src="https://github.com/user-attachments/assets/af5e08a8-c14b-427c-a6ce-7e3a7c959d93" />
-)
+**Enviando para o Switch**
+<img width="1366" height="768" alt="interacao_swish" src="https://github.com/user-attachments/assets/af5e08a8-c14b-427c-a6ce-7e3a7c959d93" />
 
-![Chegando no destino]
-(<img width="1366" height="768" alt="mensagem_entregue-pc01" src="https://github.com/user-attachments/assets/4c844264-2917-4718-8dea-8fa2a7284aea" />
-)
+
+**Chegando no destino**
+<img width="1366" height="768" alt="mensagem_entregue-pc01" src="https://github.com/user-attachments/assets/4c844264-2917-4718-8dea-8fa2a7284aea" />
+
 
 > 👍 **Sucesso!** No final do teste, o Packet Tracer mostra o status como **Successful**, o que significa que os computadores estão conversando perfeitamente.
 
