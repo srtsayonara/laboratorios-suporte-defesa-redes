@@ -14,7 +14,7 @@ do roteador.
 outra interface do roteador.
 
 ## Prints do laboratóriono Packet tracer
-()<img width="1366" height="768" alt="imagem1" src="https://github.com/user-attachments/assets/a97d9b39-35c3-4643-a9af-68802e0395d1" />
+<img width="1366" height="768" alt="imagem1" src="https://github.com/user-attachments/assets/a97d9b39-35c3-4643-a9af-68802e0395d1" />
 
 
 ## Cabos e Camada Física
@@ -26,11 +26,18 @@ Com a montagem correta, todas as conexoes ficaram ativas (luzes verdes no Packet
 
 ## Endereçamento IP
 ```bash
-!Para organizar os dispositivos, foram utilizadas faixas de IP privadas Classe C:
-- Rede A: 192.168.1.X | Mascara: 255.255.255.0
-- Rede B: 192.168.2.X | Mascara: 255.255.255.0
+# Interface Rede A
+interface gigabitEthernet 0/0
+ip address 192.168.1.1 255.255.255.0
+no shutdown
+exit
 
-!A mascara 255.255.255.0 define o tamanho da sub-rede e a quantidade de dispositivos suportados.
+# Interface Rede B
+interface gigabitEthernet 0/1
+ip address 192.168.2.1 255.255.255.0
+no shutdown
+exit
+
 ```
 
 
@@ -57,9 +64,9 @@ exit
 ```
 
 
-![sucesso]
-(<img width="1366" height="768" alt="configurado" src="https://github.com/user-attachments/assets/9cfe1aae-3d03-471a-9e35-a2af1b12a572" />
-)
+[sucesso]
+<img width="1366" height="768" alt="configurado" src="https://github.com/user-attachments/assets/9cfe1aae-3d03-471a-9e35-a2af1b12a572" />
+
 
 ## 🔌 Testando a rede com a "Cartinha" (Ping)
 
