@@ -116,11 +116,16 @@ Este laboratório foi excelente para praticar e demonstrar a montagem de uma top
 Comecei criando a estrutura física básica e, logo em seguida, usei o teste das "cartinhas" para validar a comunicação em tempo real. O projeto mostra, na prática, como o endereçamento IP e a configuração correta do roteador fazem toda a diferença para que redes diferentes consigam se conversar.
 
 ---
-🧑‍💻 **Autor:** Carla Sayonara Freitas
-### Formação/Fonte de estudos:
-Estudante de Suporte de Redes e Defesa de Redes cursos desenvolvidos pela Cisco Networking Academy
 
 (OBS: esse projeto ainda não foi finalizado, é apenas um registro do que foi aprendido) 
 > ⚠️ Os prints foram capturados em momentos diferentes do laboratório, 
 > por isso alguns dispositivos podem aparecer com nomes distintos.
+
+Autora
+
+**Carla Sayonara Freitas**
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Conecte--se-blue)](https://www.linkedin.com/in/carla-sayonara-freitas-33599b183/)
+[![GitHub](https://img.shields.io/badge/GitHub-Portfólio-black)](https://github.com/srtsayonara)
+
 
